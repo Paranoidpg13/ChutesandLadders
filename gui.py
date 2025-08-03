@@ -220,7 +220,7 @@ def update_position(player_index, roll):
         if final > start:
             return f"Ladder! Climbed from {start} to {final}"
         else:
-            return f"Chute! Slid from [start] to {final}"
+            return f"Chute! Slid from {start} to {final}"
     return None
 def take_turn():
     global current_player
